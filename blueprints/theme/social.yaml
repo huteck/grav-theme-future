@@ -2,9 +2,19 @@ form:
   validation: loose
   fields:
 
-    enable_social:
+    enable_social_footer:
       type: toggle
       label: FUTURE.ADMIN.THEME.FOOTER_SOCIAL_ENABLE
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    enable_social_header:
+      type: toggle
+      label: FUTURE.ADMIN.THEME.HEADER_SOCIAL_ENABLE
       highlight: 1
       default: 1
       options:

@@ -52,7 +52,8 @@ custommenus:
 menu_langswitcher: false
 menu_search: true
 menu_login: true
-enable_social: true
+enable_social_footer: true
+enable_social_header: false
 social_style: brands
 miniposts: true
 miniposts_number: 3

@@ -12,12 +12,15 @@
       {% endif %}
       </a>
     </div>
-
+   
   <nav class="dropdown">
     {% block header_navigation %}
       {{ include('partials/navigation.html.twig') }}
     {% endblock %}
+
   </nav>
+
+    
   <nav class="main">
     {% block header_extra %}
       <ul>
@@ -30,7 +33,7 @@
         {% endif %}
         </li>
         {% endif %}
-
+    
         {% if icon_lang and config.plugins.langswitcher.enabled and system.languages.supported is not null %}
           {{ include('partials/langswitcher.html.twig') }}
         {% endif %}
@@ -38,10 +41,19 @@
         {% if config.plugins.simplesearch.enabled and icon_search %}
           {{ include('partials/simplesearch_searchbox.html.twig') }}
         {% endif %}
+        
+        {# New - Social Icons in header #}
+        {% if theme_var('enable_social_header') %}  
+            {{ include('partials/social_header.html.twig') }}
+        {% endif %}
+          
         <li class="menu">
           <a class="fa-bars" href="#menu">Menu</a>
         </li>
       </ul>
+   
     {% endblock %}
+     
   </nav>
+       
 </header>
