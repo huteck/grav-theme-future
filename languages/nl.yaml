@@ -49,7 +49,8 @@ FUTURE:
       FOOTER_COPYRIGHT: Tekst copyright
       FOOTER_BUTTON_TEXT: Knoptekst
       FOOTER_BUTTON_URL: Knop-URL
-      FOOTER_SOCIAL_ENABLE: Iconen inschakelen
+      FOOTER_SOCIAL_ENABLE: Iconen inschakelen (Footer)
+      HEADER_SOCIAL_ENABLE: Iconen inschakelen (Header)
       FOOTER_SOCIAL_STYLE: Icoonstijlen
       FOOTER_SOCIAL_STYLE_DESCRIPTION: Zoek naar iconen op <a href="https://fontawesome.com/v5/search" target="_blank">https://fontawesome.com/v5/search</a>
       FOOTER_SOCIAL_STYLE_REGULAR: Regulier

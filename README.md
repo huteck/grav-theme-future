@@ -122,7 +122,8 @@ footer.description:           # Footer block description in left sidebar
 footer.copyright_text:        # Footer block copyright text in left sidebar
 footer.button_text:           # Footer block button text in left sidebar
 footer.button_url:            # Footer block button url in left sidebar
-enable_social:                # Enable/Disable social icons in footer
+enable_social_footer:         # Enable/Disable social icons in footer
+enable_social_header:         # Enable/Disable social icons in header
 custommenus.enabled:          # Enable/Disable custom menus in top menu
 ```
 To make modifications, you can copy the `user/themes/future2021/future2021.yaml` file to `user/config/themes/` folder and modify, or you can use the admin plugin.

@@ -49,7 +49,8 @@ FUTURE:
       FOOTER_COPYRIGHT: Texte du copyright
       FOOTER_BUTTON_TEXT: Texte du bouton
       FOOTER_BUTTON_URL: URL du bouton
-      FOOTER_SOCIAL_ENABLE: Activer les icônes
+      FOOTER_SOCIAL_ENABLE: Activer les icônes (Footer)
+      HEADER_SOCIAL_ENABLE: Activer les icônes (Header)
       FOOTER_SOCIAL_STYLE: Styles des icônes
       FOOTER_SOCIAL_STYLE_DESCRIPTION: Rechercher les icônes sur <a href="https://fontawesome.com/v5/search" target="_blank">https://fontawesome.com/v5/search</a>
       FOOTER_SOCIAL_STYLE_REGULAR: Regular
